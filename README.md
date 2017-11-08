@@ -3,7 +3,7 @@
 ### React Salary Calculator
 * Work in progress
 
-Check it out here [salary-calculator.surge.sh](salary-calculator.surge.sh)
+Check it out here [salary-calculator.surge.sh](http://salary-calculator.surge.sh)
 
 ---
 
