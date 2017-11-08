@@ -1,0 +1,32 @@
+.Prize h3 {
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  margin-top: 3rem;
+  font-weight: 300;
+}
+.Prize .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.Prize .image-container img {
+  width: 250px;
+  height: 200px;
+}
+.Prize .prize-item {
+  border-bottom: 1px solid tomato;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+.Prize .prize-item:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

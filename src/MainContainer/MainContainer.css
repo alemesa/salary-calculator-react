@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed');
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('proxima-nova.otf') format('otf');
+}
+
+html {
+  font-family: 'ProximaNova', 'Saira Semi Condensed', sans-serif;
+}
+
+input {
+  border: 0;
+  border-bottom: 2px dotted #66bb6a;
+  font-weight: 300;
+  width: 100px;
+  font-family: 'ProximaNova', 'Saira Semi Condensed', sans-serif;
+  font-size: 1.4rem;
+  text-align: right;
+  margin-right: 1em;
+}
+
+select {
+  border: 1px solid #66bb6a;
+  border-radius: 0;
+  background-color: white;
+  -webkit-appearance: none;
+  min-width: 80px;
+  height: 1.5em;
+  font-family: 'ProximaNova', 'Saira Semi Condensed', sans-serif;
+  font-size: 1.4rem;
+  text-align: right;
+  padding: 0 0.5rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+#wrapper {
+  font-family: 'ProximaNova', 'Saira Semi Condensed', sans-serif;
+  background-color: white;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+@media (min-width: 680px) {
+  #wrapper {
+    width: 70%;
+  }
+}
+@media (min-width: 900px) {
+  #wrapper {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  #wrapper {
+    width: 30%;
+  }
+}
+
+#wrapper h2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  line-height: 2;
+  text-align: justify;
+}
+
+#wrapper .data {
+  vertical-align: middle;
+  font-size: 13px;
+  margin-left: 10px;
+}
+#wrapper .data:hover {
+  cursor: pointer;
+}
+
+/* In order */
+#province-select {
+  margin: 0 1rem;
+  min-width: 2rem;
+}
+#country-select {
+  margin: 0 1rem;
+}
+#hourly-rate {
+  max-width: 3rem;
+}
+#hours {
+  max-width: 3rem;
+}
+#before-after-select {
+  margin: 0 1rem;
+}
+#monthly-salary {
+  min-width: 8rem;
+  border-bottom: 2px dotted tomato;
+}
+#yearly-salary {
+  min-width: 9rem;
+  border-bottom: 2px dotted tomato;
+}

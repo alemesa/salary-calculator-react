@@ -1,0 +1,49 @@
+{
+  "data": {
+    "alberta": 0,
+    "british_columbia": 0.07,
+    "manitoba": 0.08,
+    "new_brunswick": 0.1,
+    "newfoundland_labrador": 0.1,
+    "northwest_territories": 0,
+    "nova_scotia": 0.1,
+    "nunavut": 0,
+    "ontario": 0.08,
+    "prince_edward_island": 0.1,
+    "quebec": 0.0975,
+    "saskatchewan": 0.06,
+    "yukon": 0
+  },
+  "brackets": [
+    {
+      "bracket": 1,
+      "min": 0,
+      "max": 45282,
+      "rate": 0.15
+    },
+    {
+      "bracket": 2,
+      "min": 45282,
+      "max": 90563,
+      "rate": 0.205
+    },
+    {
+      "bracket": 3,
+      "min": 90563,
+      "max": 140388,
+      "rate": 0.26
+    },
+    {
+      "bracket": 4,
+      "min": 140388,
+      "max": 200000,
+      "rate": 0.29
+    },
+    {
+      "bracket": 5,
+      "min": 200000,
+      "max": null,
+      "rate": 0.33
+    }
+  ]
+}
